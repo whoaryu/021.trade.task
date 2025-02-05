@@ -1,0 +1,22 @@
+{
+    "Watchlist 1": [
+      { "name": "RELIANCE", "price": "3,000.00", "change": "+5.35 (+0.12%)" },
+      { "name": "MRF", "price": "1,23,000.00", "change": "-300.35 (-0.21%)" },
+      { "name": "TATAINVEST", "price": "3,600.00", "change": "+15.35 (+0.18%)" }
+    ],
+    "Watchlist 2": [
+      { "name": "TATASTEEL", "price": "1,600.00", "change": "+5.35 (+0.12%)" },
+      { "name": "ADANIENT", "price": "3,500.00", "change": "+1.60 (+0.06%)" }
+    ],
+    "Watchlist 3": [
+      { "name": "PAYTM", "price": "500.00", "change": "-5.35 (-0.12%)" },
+      { "name": "NYKAA", "price": "1,000.00", "change": "+8.95 (+0.08%)" }
+    ],
+    "Watchlist 4": [
+      { "name": "ASIANPAINT", "price": "3,000.00", "change": "0.00 (0.00%)" }
+    ],
+    "Watchlist 5": [
+      { "name": "ASIANPAINT", "price": "3,000.00", "change": "0.00 (0.00%)" }
+    ]
+  }
+  
