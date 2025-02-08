@@ -23,3 +23,8 @@ This app displays stock watchlists using `TabBar` and `TabBarView`. It loads sto
 ```
 
 ## Screenshots
+
+
+<img width="280" alt="ss1" src="https://github.com/user-attachments/assets/3b8ccbb6-9e6c-4a4a-a5c3-e585a99d9b89" />
+<img width="280" alt="ss2" src="https://github.com/user-attachments/assets/f0b097b6-314a-43c6-ae49-b7ed8e23e600" />
+<img width="280" alt="ss3" src="https://github.com/user-attachments/assets/26cb1409-a166-4b95-bd76-9f0ef171b240" />
