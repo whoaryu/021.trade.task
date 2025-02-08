@@ -1,16 +1,25 @@
-# task_021_trade
+# Watchlist App
 
-A new Flutter project.
+This app displays stock watchlists using `TabBar` and `TabBarView`. It loads stock data from a local JSON file and shows stock details in a scrollable list.
 
-## Getting Started
+## Features
+- Multiple watchlists with tab navigation.
+- Fetches stock data from `assets/stocks.json`.
+- Displays stock name, price, and change percentage.
+- Loading indicator while fetching data.
 
-This project is a starting point for a Flutter application.
+## Components Used
+- **`TabController`**: Manages tabs.
+- **`TabBar & TabBarView`**: Enables tab navigation.
+- **`DefaultAssetBundle`**: Loads JSON data.
+- **`ListView.builder`**: Displays stocks.
+- **`CircularProgressIndicator`**: Shows loading.
 
-A few resources to get you started if this is your first Flutter project:
+## JSON Structure
+```json
+{
+  "Watchlist 1": [{"name": "Stock A", "price": "₹1000", "change": "+5%"}]
+}
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots

@@ -44,10 +44,10 @@ class _WatchlistScreenState extends State<WatchlistScreen>
           child: Align(
             alignment: Alignment.centerLeft,
             child: SingleChildScrollView(
-              scrollDirection: Axis.horizontal, // Allow horizontal scrolling
+              scrollDirection: Axis.horizontal, 
               child: TabBar(
                 controller: _tabController,
-                isScrollable: true, // Ensures tabs are scrollable if needed
+                isScrollable: true, 
                 labelColor: Colors.black,
                 unselectedLabelColor: Colors.grey,
                 indicatorColor: Colors.black,
@@ -59,7 +59,7 @@ class _WatchlistScreenState extends State<WatchlistScreen>
       ),
       body: TabBarView(
         controller: _tabController,
-        physics: const BouncingScrollPhysics(), // Enables left & right swipe between watchlists
+        physics: const BouncingScrollPhysics(), 
         children: watchlists.map((watchlist) => _buildStockList(watchlist)).toList(),
       ),
     );
